@@ -14,26 +14,22 @@ fun main(args: Array<String>){
         if (year%100==0)
             verifYear=year%400
 
-    println()
-    print("Enter with the month: ")
+    print("\nEnter with the month: ")
     var month = scan.nextInt()
 
     if(month<1 || month>12){
         do {
-            println()
             print("Enter again with the month: ")
             month=scan.nextInt()
         }while(month<1||month>12)
     }
 
-    println()
-    print("Enter with the day: ")
+    print("\nEnter with the day: ")
     var day= scan.nextInt()
 
     if(day<1||day>31){
         do {
-            println()
-            print("Enter again with the month: ")
+            print("\nEnter again with the month: ")
             day=scan.nextInt()
         }while(day<1||day>31)
     }
