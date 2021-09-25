@@ -37,8 +37,7 @@ fun main(args: Array<String>){
     if(verifYear==0 && month==2){
         if (day>29){
             do {
-                println()
-                print("Enter again with the day: ")
+                print("\nEnter again with the day: ")
                 day=scan.nextInt()
             }while(day>29)
         }
@@ -46,8 +45,7 @@ fun main(args: Array<String>){
     else if(verifYear!=0 && month==22){
         if (day>28){
             do {
-                println()
-                print("Enter again with the day: ")
+                print("\nEnter again with the day: ")
                 day=scan.nextInt()
             }while(day>28)
         }
@@ -55,8 +53,7 @@ fun main(args: Array<String>){
 
     if(month==4 || month==6 || month == 7 || month==11 && day>30){
         do {
-            println()
-            print("Enter again with the day: ")
+            print("\nEnter again with the day: ")
             day=scan.nextInt()
         }while(month==4 || month==6 || month == 7 || month==11 && day>30)
     }
